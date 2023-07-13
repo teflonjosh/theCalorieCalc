@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="styleSheet.css">
+            <title>The Calorie Calc</title>
+        </head>
+    <style>
+</style>
+    <body>
+        <h1><span id="pink">Calorie</span> <span id="blue">Calculator</span></h1>
+        <section id = "container">
+            <div id="metrics">
+                <p><b>How much does your body need?</b></p>
+                    <label for="weight">If your weight is</label>
+                    <input type="number" id="weight"> kg
+                <p>
+                    <label for="height">Your height is</label>
+                    <input type="number" id="height"> cm
+                <p>
+                    <label for="age">You are</label>
+                    <input type="number" id="age"> years old
+            </div>  
+        <div id="gender">
+            <p>And you are/identify as</p>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+            </p>/home/josh/Desktop/calorieCalc/index.html
+        </div>
+    <div id="activity">
+        <p>With a daily activity level that is<br>
+            <label for="sedentary">Sedentary</label>
+            <input type="radio" id="sedentary" name="activity" value="sedentary">
+        <br>
+            <label for="somewhat">Somewhat Active</label>
+            <input type="radio" id="somewhat" name="activity" value="somewhat">
+        <br>
+            <label for="somewhat">Moderately Active</label>
+            <input type="radio" id="moderately" name="activity" value="moderately">
+        <br>
+            <label for="somewhat">Very Active</label>
+            <input type="radio" id="very" name="activity" value="very">
+        <br>
+            <label for="somewhat">Extremely Active</label>
+            <input type="radio" id="extremely" name="activity" value="extremely">
+    </div>
+        <p>
+            <button id ="calc">To Maintain Weight</button><span id="result"></span> 
+        <p>
+            <button id ="lossCalc">To Lose Weight</button><span id="result2"></span> 
+    </section>
+<p>
+    <section id ="details">
+        <hr>
+            <p>These details and calculations are sourced from <a href="https://www.medicalnewstoday.com/articles/calorie-deficit">Medical News Today</a> 
+            and <a href="https://www.verywellfit.com/how-many-calories-do-i-need-each-day-2506873">verywellfit</a>.</p>
+            <p><b>Medical Disclaimer: </b>The information provided by this calculator is for general informational purposes only and is not intended as a substitute 
+            for professional medical advice, diagnosis, or treatment.</p>
+            <p>Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p>
+            <p>Never disregard professional medical advice or delay in seeking it because of something you have read on this website. 
+            Reliance on any information provided by this calculator is solely at your own risk.</p>
+        <hr>
+    </section>
+            <br>
+        <script src="calorieApp.js"></script>
+    </body>
+</html>
