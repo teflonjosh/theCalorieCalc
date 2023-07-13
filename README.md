@@ -11,6 +11,10 @@ Based on user input of personal details.
 - CSS 
 - JavaScript
 
+## image 
+
+![alt text](https://github.com/teflonjosh/theCalorieCalc/blob/main/calorieCalc.png?raw=true)
+
 ## Acknowledgements
 
   ## 
