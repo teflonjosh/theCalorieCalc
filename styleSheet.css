@@ -1,0 +1,46 @@
+* PAGE */
+body { 
+    background-color: rgb(0, 1, 1);
+    text-align: center;
+    color: rgb(67, 179, 166);
+    font-size: 16px;
+}
+/* Sections */ 
+#container {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  border: 2px solid rgb(36, 200, 181);
+  background-color: rgb(2, 27, 27);
+  box-shadow: 10px 10px 20px rgb(67, 179, 166);
+}
+#details {
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-style: italic;
+    font-size: small;
+}
+#activity {
+    line-height: 1.5;
+}
+/* Details */ 
+input[type = "number"] {
+    width: 45px;
+}
+button{
+    background-color: rgb(2, 27, 27);
+    color: rgb(67, 179, 166);
+    border-radius: 5%;
+    border: .5px solid;
+    font-size: 16px;
+}
+#pink {
+    color: RGB(245, 53, 170);
+    text-decoration: underline;
+}
+#blue {
+    color: #1F51FF;
+    text-decoration: overline;
+}
